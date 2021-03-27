@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f1f5f8;
+}
+.nav-center{
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    align-content: space-around;
+    height: 10vh;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    font-size: large;
+}
+.nav-center h4{
+    width: 50%;
+    text-align: center;
+}
+.nav-links a{
+    text-decoration: none;
+    padding: 1rem;
+}
+.containor{
+    border: 0.25rem black solid ;
+    border-radius: 1rem;
+    margin: auto;
+    width: 55%;
+    padding: 0.5rem;
+    text-align: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+.btn-hero{
+    font-size: 1rem;
+    background-color:transparent;
+    text-align: center;
+    padding: 0.5rem;
+    border: solid black 0.1rem;
+    border-radius: 0.25rem;
+}
+h2{
+    display: inline-block;
+    width: 60%;
+}
